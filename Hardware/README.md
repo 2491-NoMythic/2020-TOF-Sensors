@@ -8,9 +8,9 @@ The objective was to 1) use multiple VL8180 sensors that have a fixed I2C addres
 This circuit board is pretty much just a bunch of connectors. 
 * a place to connect to the RoboRio with an MPX connector on the bottom of the board
 * a place to connect the ItsyBitsy with headers
-* a place to connect the multiplexor with headers
+* a place to connect the multiplexer with headers
 * a place to connect JST-4pin connectors for each of up to 8 sensors
 
 There are images of the schematic and board layout.
 
-Note: we couldn't figure out how to get a footprint that matched the ItsyBitsy and the multiplexor in KiCad, so we just used two rows of of headers. It looks particularly weird in the schematic, but it works.
+Note: we couldn't figure out how to get a footprint that matched the ItsyBitsy and the multiplexer in KiCad, so we just used two rows of of headers. It looks particularly weird in the schematic, but it works.

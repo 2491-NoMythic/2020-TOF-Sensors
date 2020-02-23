@@ -6,7 +6,7 @@ With up to 8 sensors we knew that we would need a way to keep the wiring lined u
 
 This board would have a Microcontroler (Arduino compatible) and locking connectors for our chosen sensor. After trying a few we went with the Adafruit VL6180x Time of Flight sensor.
 
-Unfortunately this sensor has a non changeable I2C address, so we needed to also stick a multiplexor in there.
+Unfortunately this sensor has a non changeable I2C address, so we needed to also stick a multiplexer in there.
 
 So this is what we decided to create:
 
