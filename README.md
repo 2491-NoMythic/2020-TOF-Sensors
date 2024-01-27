@@ -14,4 +14,4 @@ A custom board based on an Adafruit ItsyBitsy, with an Adafruit CA9548A 1-to-8 I
 
 The objective was to 1) use multiple VL8180 sensors that have a fixed I2C address, and 2) free up the RoboRio code to simply need to check a digitalInput as you would a limit switch.
 
-There is more documentation in the Arduino code.
+There is some more documentation in the Arduino code.
