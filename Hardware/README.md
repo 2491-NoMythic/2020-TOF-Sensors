@@ -22,6 +22,6 @@ Note: we couldn't figure out how to get a footprint that matched the ItsyBitsy a
 ## Sensor Connectors
 
 | Sensor ID | Arduino Pin | MXP Pin |
-| --------------------------------- |
-| 1         | 0           | 0       |
-| 2         | 0           | 0       |
+| --- | --- | --- |
+| 1 | 0 | 0 |
+| 2 | 0 | 0 |
