@@ -23,6 +23,9 @@ multiplexer, or sensor.
 To use this code, open up this .ino file in the Arduino editor, make code changes
 related to the number of sensors and the pins you are using, and upload to your micro-controller.
 
+Note: You will need the Adafruit_VL6180X Arduino library
+Note: If uploading to the ItsyBitsy, select the 32u4 5v version.
+
 This code is an example and set up to work with the included board. The output pins from the Arduino will be high when the sensor finds something within the sensor range, and low if not. 
 
 The code could be changed to respond to a particular distance. Some of the pins on the ItsyBitsy are analog pins. Therefore, the pin could be set up as analog and a value representing the distance could be sent to the pin. However, not all the pins connected on the MX Port of the Rio are PWM inputs (can read the analog output). 17, 15, 13 might be the only ones connected to analog pins on the Arduino. See chart in Hardware readme. You would have to test the others.

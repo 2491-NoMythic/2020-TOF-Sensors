@@ -14,7 +14,7 @@ Unfortunately this sensor has a non changeable I2C address, so we needed to also
 
 So this is what we decided to create:
 
-A custom board based on an Adafruit ItsyBitsy, with an Adafruit TCA9548A 1-to-8 I2C Multiplexer Breakout, reading data from an Adafruit VL6180X Time of Flight Micro-LIDAR Distance Sensor Breakout, sending data to a RoboRio.
+A custom board based on an Adafruit ItsyBitsy (32u4 5v), with an Adafruit TCA9548A 1-to-8 I2C Multiplexer Breakout, reading data from an Adafruit VL6180X Time of Flight Micro-LIDAR Distance Sensor Breakout, sending data to a RoboRio.
 
 The objective was to 
 1. use multiple VL8180 sensors that have a fixed I2C address, and 

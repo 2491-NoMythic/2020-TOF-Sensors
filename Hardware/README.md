@@ -21,15 +21,16 @@ Note: we couldn't figure out how to get a footprint that matched the ItsyBitsy a
 
 ## Sensor Pins
 
-| Sensor ID | Arduino Pin | MXP Pin |
-| --- | --- | --- |
-| 1 | A0 18 | 23 |
-| 2 | A1 19 | 21 |
-| 3 | A2 20 | 19 |
-| 4 | A3 21 | 17 |
-| 5 | A4 22 | 15 |
-| 6 | A5 23 | 13 |
-| 7 | 5 | 25 |
-| 8 | 13 | 11 |
+| Sensor ID | Arduino Pin | MXP Pin | Rio DIO | WPILib Channel |
+| --- | --- | --- | --- |
+| 1 | A0 18 | 23 | MXP DIO6 | 16 |
+| 2 | A1 19 | 21 | MXP DIO5 | 15 |
+| 3 | A2 20 | 19 | MXP DIO4 | 14 |
+| 4 | A3 21 | 17 | MXP DIO3 | 13 |
+| 5 | A4 22 | 15 | MXP DIO2 | 12 |
+| 6 | A5 23 | 13 | MXP DIO1 | 11 |
+| 7 | D5 5 | 11 | MXP DIO0 | 10 |
+| 8 | D13 13 | 25 | MXP DIO7 | 17 |
 
 Note: Because pin 13 on the arduino is also tied to an output led, sensor 6 should be used with caution.
+Note: The DIO channel for digital input 0-9 are on-board, 10-25 are on the MXP
