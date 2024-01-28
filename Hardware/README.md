@@ -22,7 +22,7 @@ Note: we couldn't figure out how to get a footprint that matched the ItsyBitsy a
 ## Sensor Pins
 
 | Sensor ID | Arduino Pin | MXP Pin | Rio DIO | WPILib Channel |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | D13 13 | 25 | MXP DIO7 | 17 |
 | 2 | A0 18 | 23 | MXP DIO6 | 16 |
 | 3 | A1 19 | 21 | MXP DIO5 | 15 |
