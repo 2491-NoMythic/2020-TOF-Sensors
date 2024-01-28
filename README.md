@@ -25,6 +25,7 @@ The objective was to
 * ItsyBitsy (32u4 5v) [Adafruit Learn Guide](https://learn.adafruit.com/introducting-itsy-bitsy-32u4)
 * I2C multiplexer (TCA9548A) [Adafruit Learn Guide](https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout/overview)
 * ToF sensor (VL6180X) [Adafruit Learn Guide](https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/overview)
+* Roborio MXP connector [NI site](https://www.ni.com/docs/en-US/bundle/labview-roborio-toolkit/page/roboriohelp/roborio_connector_pinouts.html)
 
 ## Drawings / Images
 
